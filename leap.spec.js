@@ -19,7 +19,7 @@ describe('Leap year', function() {
   });
 
   // Feel free to enable the following tests to check some more examples
-  xdescribe('Additional example of a leap year that', function () {
+  describe('Additional example of a leap year that', function () {
 
     it('is not a leap year', function () {
       expect(isLeapYear(1978)).toBe(false);
