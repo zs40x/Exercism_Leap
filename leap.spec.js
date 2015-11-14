@@ -10,7 +10,7 @@ describe('Leap year', function() {
     expect(isLeapYear(2016)).toBe(true);
   });
 
-  xit('is skipped every 100 years to remove an extra day', function() {
+  it('is skipped every 100 years to remove an extra day', function() {
     expect(isLeapYear(1900)).toBe(false);
   });
 
